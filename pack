@@ -12,7 +12,7 @@ echo "Size: $(stat -c %s $p)" >> Packages
 echo >> Packages
 done
 bzip2 -z Packages
-cd /var/mobile/sinfool
+echo "Currently $(ls debs | wc -l) packages on this repo" > readMe.md
 git add --all
 test "$1" = "" && {
 git commit -m "Update"
