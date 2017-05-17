@@ -15,8 +15,6 @@ bzip2 -z Packages
 echo "Currently $(ls debs | wc -l) packages on this repo" > readMe.md
 echo >> readMe.md
 echo "$(ls debs | grep -vc "debug") have been approved by our team as ready for use" >> readMe.md
-echo "   Our definition of \"read for use\" is a proper description and preferences if necessary. This does not mean that unapproved tweaks are unuseable." >> readMe.md
-echo "   We do not check for bugs, nor is our process going to be accurate all the time. Please report bugs by [contacting me](../contact.html)" >> readMe.md
 git add --all
 test "$1" = "" && {
 git commit -m "Update"
