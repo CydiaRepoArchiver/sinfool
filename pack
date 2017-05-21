@@ -16,9 +16,5 @@ echo "Currently $(ls debs | wc -l) packages on this repo" > readMe.md
 echo >> readMe.md
 echo "$(ls debs | grep -vc "debug") have been approved by our team as ready for use" >> readMe.md
 git add --all
-test "$1" = "" && {
-git commit -m "Update"
-} || {
-git commit -m "$1"
-}
+test "$1" = "" && git commit -m "Update" || git commit -m "$1"
 sudo git push
