@@ -6704,6 +6704,15 @@ Description: Changes the switcher's wallpaper background style.  Set the style t
 
 ————— 
 
+Name: LS/NC Transparent View & Clear Buttons
+Identifier: com.sinfool.transbuttons
+Version: 0.0.1
+Description: Makes the "View" & "Clear" buttons of notifications transparent.
+ Makes the "View" & "Clear" buttons of notifications transparent.
+ [v.1] Tested with an iPad mini 4 on 10.2.  Made as a request via r/jailbreak.  (6-19-17)
+
+————— 
+
 Name: Transcript Background Color
 Identifier: com.sinfool.transcriptbackgroundcolor
 Version: 0.0.1-1+debug
